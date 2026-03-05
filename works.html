@@ -1,0 +1,130 @@
+<body background="bg.jpg" bgcolor="#ffffff" text="#000000" link="#0000ff" vlink="#800080">
+    <center><br><h1>制作物</h1><br></center>
+    <hr size="2">
+    
+    <table border="1" cellspacing="0" cellpadding="10" width="95%" align="center">
+        <br>
+        <tr bgcolor="#eeeeee">
+            <th width="30%">プロジェクト</th>
+            <th>説明</th>
+        </tr>
+
+        <tr id="MoveGUI-by-Hand">
+            <td valign="top">
+                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top">
+                            <b>MoveGUI by Hand</b><br>
+                            <font size="2">(2024.03 - 2025.01)</font>
+                        </td>
+                        <td align="right">
+                            <!-- <img src="project_movegui.jpg" width="180" alt="MoveGUI" border="2"> -->
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                高校時代に課題研究で制作。MediaPipeを用いたハンドジェスチャ認識によって、上下スクロールやクリック操作のような画面操作をWebカメラを通して非接触で可能としたアプリケーション。
+                <br><br>
+                <b>【技術スタック】</b><br>
+                <b>Frontend:</b> Tkinter<br>
+                <b>Backend:</b> Python (MediaPipe, scikit-learn, NumPy, PyAutoGUI, OpenCV, Joblib)<br>
+                <b>Infrastructure:</b> Raspberry Pi 4 Model B 4GB, RasTechカメラモジュール
+                <br><br>
+                <b>【GitHub】</b>
+                非公開
+            </td>
+        </tr>
+
+        <tr id="gakushoku-bot">
+            <td valign="top">
+                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top">
+                            <b>gakushoku-bot</b><br>
+                            <font size="2">(2025.11)</font>
+                        </td>
+                        <td align="right">
+                            <!-- <img src="project_gakushoku.jpg" width="180" alt="Gakushoku Bot" border="2"> -->
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                毎日定時に会津大学の学食メニューをDiscordへ通知するアプリケーション。<br>
+                10:00に『日替わりランチ』、15:30に『夕食セット』、19:00に『明日のメニュー予告』を通知する。
+                <br><br>
+                <b>【技術スタック】</b><br>
+                <b>Frontend:</b> Discord Client<br>
+                <b>Backend:</b> Discord Webhook API, JavaScript<br>
+                <b>Infrastructure:</b> Cloudflare Workers
+                <br><br>
+                <b>【GitHub】</b>
+                <a href="https://github.com/yonu33/gakushoku-bot" target="_blank">https://github.com/yonu33/gakushoku-bot</a>
+            </td>
+        </tr>
+
+        <tr id="uoa-hub-auth-bot">
+            <td valign="top">
+                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top">
+                            <b>uoa-hub-auth-bot</b><br>
+                            <font size="2">(2025.11)</font>
+                        </td>
+                        <td align="right">
+                            <img src="https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F4281160%2F476e210c-cc92-4c42-85a9-4e2eea497be0.png?ixlib=rb-4.0.0&auto=format&gif-q=60&q=75&w=1400&fit=max&s=4a68ad2067b25005a9251df71e4179d9" width="180" height="180" alt="uoa-hub-auth-bot" border="2">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                大学コミュニティや関連団体のDiscordサーバー参加者向けのメール認証システム。<br>
+                大学ドメインのメールアドレスで認証し、自動でロールを付与する。
+                <a href="https://qiita.com/yonu/items/fcaac74ca97eb41835b7" target="_blank">解説記事</a>
+
+                <br><br>
+                <b>【技術スタック】</b><br>
+                <b>Frontend:</b> Discord Client, HTML, CSS<br>
+                <b>Backend:</b> JavaScript (Discord API, Gmail API)<br>
+                <b>Database:</b> Google Sheets<br>
+                <b>Infrastructure:</b> Cloudflare Workers, Google Apps Script
+                <br><br>
+                <b>【GitHub】</b>
+                非公開
+            </td>
+        </tr>
+
+        <tr id="akabeko-reminder-bot">
+            <td valign="top">
+                <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top">
+                            <b>akabeko-reminder-bot</b><br>
+                            <font size="2">(2026.01)</font>
+                        </td>
+                        <td align="right">
+                            <!-- <img src="project_akabeko.jpg" width="180" alt="Akabeko Bot" border="2"> -->
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                Discord上で登録した予定をロールまたはユーザ個人単位に向けて会津弁でメンションする、中規模コミュニティ向けリマインダーBot。
+                <br><br>
+                <b>【技術スタック】</b><br>
+                <b>Frontend:</b> Discord Client<br>
+                <b>Backend:</b> Python (discord.py, APScheduler)<br>
+                <b>Database:</b> SQLite<br>
+                <b>Infrastructure:</b> Docker, Docker Compose, Raspberry Pi 4 Model B
+                <br><br>
+                <b>【GitHub】</b>
+                <a href="https://github.com/yonu33/akabeko-reminder-bot" target="_blank">https://github.com/yonu33/akabeko-reminder-bot</a>
+            </td>
+        </tr>
+    </table>
+    <br><hr size="2">
+    <center>
+        <br><a href="top.html">トップに戻る</a><br><br>
+    </center>
+</body>
